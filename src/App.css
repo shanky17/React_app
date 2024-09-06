@@ -27,3 +27,32 @@ nav {
   height: 40px;
   margin-right: 10px;
 }
+
+main {
+  color: #fff;
+  padding: 57px 27px;
+  background-image: url('./images/react-logo.svg');
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-facts > li {
+  line-height: 20px;
+  padding-block: 10px;
+}
+
+.main-facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4em;
+}
