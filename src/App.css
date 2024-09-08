@@ -1,58 +1,58 @@
 nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-header {
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-stats {
   display: flex;
   align-items: center;
-  background-color: #21222a;
-  height: 90px;
-  padding: 30px 25px;
 }
 
-.nav-logo-text,
-.nav-title {
-  margin: 0;
-}
-
-.nav-logo-text {
-  margin-right: auto;
-  color: #61dafb;
-  font-weight: 700;
-  font-size: 22px;
-}
-
-.nav-title {
-  color: #deebf8;
-  font-weight: 600;
-}
-
-.nav-icon {
-  height: 40px;
-  margin-right: 10px;
-}
-
-main {
-  color: #fff;
-  padding: 57px 27px;
-  background-image: url('./images/react-logo.svg');
-  background-repeat: no-repeat;
-  background-position: right 75%;
-}
-
-.main-title {
-  margin: 0;
-  font-size: 39px;
-  letter-spacing: -0.05em;
-}
-
-.main-facts {
-  margin-top: 46px;
-  max-width: 400px;
-}
-
-.main-facts > li {
-  line-height: 20px;
-  padding-block: 10px;
-}
-
-.main-facts > li::marker {
-  color: #61dafb;
-  font-size: 1.4em;
+.card-star {
+  height: 14px;
 }
